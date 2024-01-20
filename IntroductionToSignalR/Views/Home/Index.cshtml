@@ -1,0 +1,20 @@
+﻿<div class="container" style="padding-top:80px">
+    <div class="row">
+        <div class="col-6">
+            <span>Enter Your Name:</span><br />
+            <input type="text" class="textUser"><br />
+            <span>Enter Your Message</span><br />
+            <textarea rows="10" cols="50" class="textMessage"></textarea><br />
+            <button type="submit" class="btn btn-info" id="btnSend" >Send Message</button>
+        </div>
+        <div class="col-6">
+            <h3>Message List:</h3>
+            <ul id="list" class="alert alert-info">
+
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/aspnet/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/site.js"></script>
